@@ -101,6 +101,10 @@ body {
     border-radius: 10px;
 }
 
+.info-me {
+    text-indent: 50px;
+}
+
 .card {
     background-color: #DBE2EF;
     padding: 20px;
