@@ -8,6 +8,7 @@ body {
     font-family: Georgia, serif,serif;
 }
 
+/******************************* index.html*******************************/
 /* Header */
 .cstuheader {
     background-color: #F9F7F7;
@@ -31,6 +32,7 @@ body {
     height: 50px;
     position: sticky;
     top: 0px;
+    z-index: 2;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -58,6 +60,7 @@ body {
 
 .navbarhome ul li a:hover, #contactbtn:hover {
    color:#3F72AF;
+   transition: ease 0.5s;
 }
 
 #contactbtn {
@@ -110,6 +113,7 @@ body {
     background-color: #DBE2EF;
     padding: 20px;
     margin-top: 20px;
+    box-shadow: 0px 10px 13px -7px #000000;
 }
 
 .about-me{
@@ -142,6 +146,7 @@ body {
 
 .social a:hover {
     color: #112D4E;
+    transition: ease 1s;
 }
 
 .homepage::after {
@@ -161,24 +166,29 @@ body {
 }
 /* Footer End */
 
+/******************************* index.html*******************************/
+
+
+/******************************* myfuture.html*******************************/
 /* Navbar Future Start */
 .navbarhome #active {
     color: #3F72AF;
     text-decoration: none;
     font-size: 24px;
+    text-transform: uppercase;
 }
 /* Navbar Future End */
 
-/* Content Section Start */
+/* Content Future Section Start */
 .aboutfuture {
     width: 100%;
-    border: 1px solid red;
-    height: 70vh;
-    margin-top: 20px; 
+    height: 100%;
+    margin: 50px 0px;
 }
 
 .aboutfuture .topicfuture {
     text-align: center;
+    text-transform: uppercase;
 }
 
 .aboutfuture h3 {
@@ -186,15 +196,15 @@ body {
     color: #DBE2EF;
     padding: 5px;
     background-color: #3F72AF;
-    border: 1px solid #112D4E;
     border-radius: 10px;
     position:relative;
     z-index: 1;
     top: 10px;
+    box-shadow: 0px 10px 13px -7px #000000
+    ;
 }
 
 .box-future {
-    border: 1px solid black;
     height: 60vh;
     display: flex;
     justify-content: center;
@@ -202,10 +212,65 @@ body {
 
 .info-future {
     width: 50%;
-    border: 1px solid #112D4E;
     background-color: #DBE2EF;
     text-indent: 50px;
     padding: 30px;
     border-radius:10px ;
+    box-shadow: 0px 10px 13px -7px #000000;
 }
-/* Content Section End */
+/* Content Future Section End */
+
+/******************************* myfuture.html*******************************/
+
+
+/******************************* myjourney.html*******************************/
+.aboutjourney {
+    width: 100%;
+    border: 1px solid red;
+    height: 100%h;
+    margin-top: 20px; 
+}
+
+.aboutjourney .topicjourney {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.aboutjourney h3 {
+    display: inline;
+    color: #DBE2EF;
+    padding: 5px;
+    background-color: #3F72AF;
+    border-radius: 10px;
+    box-shadow: 0px 10px 13px -7px #000000;
+    position:relative;
+    z-index: 1;
+    top: 10px;
+}
+
+.box-journey {
+    border: 1px solid black;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+}
+
+.info-journey {
+    width: 50%;
+    background-color: #DBE2EF;
+    text-indent: 50px;
+    padding: 30px;
+    border-radius: 20px ;
+    overflow: auto;
+    box-shadow: 0px 10px 13px -7px #000000;
+}
+
+.info-journey p {
+    font-size: 16px;
+}
+
+.container-journey {
+    padding: 20px;
+}
+
+/******************************* myjourney.html*******************************/
