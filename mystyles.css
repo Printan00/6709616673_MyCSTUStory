@@ -1,0 +1,25 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, serif,serif;
+}
+
+/* Header */
+.cstuheader {
+    background-color: #F9F7F7;
+    color: #112D4E;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+}
+.cstuheader h1 {
+    padding-top: 10px; ;
+}
+.cstuheader h4 {
+    padding-top: 10px;
+}
+/* Header */
