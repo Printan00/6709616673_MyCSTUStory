@@ -41,6 +41,7 @@ body {
     text-decoration: none;
     color: #DBE2EF;
     font-size: 30px;
+    font-weight: bold;
 }
 
 .navbarhome ul li {
@@ -52,7 +53,7 @@ body {
 .navbarhome ul li a {
     text-decoration: none;
     color:#F9F7F7;
-    font-size: 17px;
+    font-size: 18px;
 }
 
 .navbarhome ul li a:hover, #contactbtn:hover {
@@ -154,3 +155,10 @@ body {
     padding: 20px;
 }
 /* Footer End */
+
+/* Navbar Future Start */
+.navbarhome #active {
+    color: #3F72AF;
+    text-decoration: none;
+    font-size: 24px;
+}
