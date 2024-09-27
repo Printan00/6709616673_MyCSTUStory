@@ -53,7 +53,7 @@ body {
 .navbarhome ul li a {
     text-decoration: none;
     color:#F9F7F7;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .navbarhome ul li a:hover, #contactbtn:hover {
@@ -120,8 +120,13 @@ body {
 
 .about {
     text-align: center;
-    padding-top: 20px;
+    padding-top: 18px;
     text-transform: capitalize ;
+}
+
+.contact {
+    color: #112D4E;
+    font-size: 18px;
 }
 
 .social {
@@ -132,7 +137,7 @@ body {
 .social a {
     color: #3F72AF;
     font-size: 40px ;
-    padding-left: 30px;
+    padding-left: 10px;
 }
 
 .social a:hover {
@@ -162,3 +167,31 @@ body {
     text-decoration: none;
     font-size: 24px;
 }
+/* Navbar Future End */
+
+/* Content Section Start */
+.aboutfuture {
+    width: 100%;
+    border: 1px solid red;
+    height: 80vh;
+    margin-top: 20px; 
+}
+
+.aboutfuture .topicfuture {
+    text-align: center;
+}
+
+.aboutfuture h3 {
+    display: inline;
+    color: #112D4E;
+    padding: 5px;
+    background-color: #DBE2EF;
+    border: 1px solid #112D4E;
+    border-radius: 10px;
+}
+
+.info-future {
+    border: 1px solid blue;
+    text-indent: 50px;
+}
+/* Content Secyion End */
