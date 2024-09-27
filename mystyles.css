@@ -173,7 +173,7 @@ body {
 .aboutfuture {
     width: 100%;
     border: 1px solid red;
-    height: 80vh;
+    height: 70vh;
     margin-top: 20px; 
 }
 
@@ -195,11 +195,9 @@ body {
 
 .box-future {
     border: 1px solid black;
-    height: 70vh;
+    height: 60vh;
     display: flex;
     justify-content: center;
-    
-
 }
 
 .info-future {
