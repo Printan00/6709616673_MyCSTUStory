@@ -183,15 +183,31 @@ body {
 
 .aboutfuture h3 {
     display: inline;
-    color: #112D4E;
+    color: #DBE2EF;
     padding: 5px;
-    background-color: #DBE2EF;
+    background-color: #3F72AF;
     border: 1px solid #112D4E;
     border-radius: 10px;
+    position:relative;
+    z-index: 1;
+    top: 10px;
+}
+
+.box-future {
+    border: 1px solid black;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    
+
 }
 
 .info-future {
-    border: 1px solid blue;
+    width: 50%;
+    border: 1px solid #112D4E;
+    background-color: #DBE2EF;
     text-indent: 50px;
+    padding: 30px;
+    border-radius:10px ;
 }
-/* Content Secyion End */
+/* Content Section End */
