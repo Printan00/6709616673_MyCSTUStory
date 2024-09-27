@@ -144,3 +144,13 @@ body {
     clear: both;
 }
 /* Section Content End */
+
+/* Footer Start */
+.copyright {
+    background-color: #112D4E;
+    text-align: center;
+    color: #F9F7F7;
+    margin-top: 20px ;
+    padding: 20px;
+}
+/* Footer End */
