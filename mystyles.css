@@ -23,3 +23,45 @@ body {
     padding-top: 10px;
 }
 /* Header */
+
+/* Navbar Start*/
+.navbarhome {
+    width: 100%;
+    background-color: #112D4E;
+    height: 50px;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+}
+
+#logo {
+    text-decoration: none;
+    color: #DBE2EF;
+    font-size: 30px;
+}
+
+.navbarhome ul li {
+    list-style-type:none ;
+    display: inline;
+    padding: 0px 20px;
+}
+
+.navbarhome ul li a {
+    text-decoration: none;
+    color:#F9F7F7;
+    font-size: 17px;
+}
+
+.navbarhome ul li a:hover, #contactbtn:hover {
+   color:#3F72AF;
+}
+
+#contactbtn {
+    color: #F9F7F7;
+    text-decoration: none;
+    font-size: 17px;
+}
+/* Navbar End */
