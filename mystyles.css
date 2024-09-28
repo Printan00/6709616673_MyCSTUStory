@@ -178,6 +178,7 @@ body {
     text-decoration: none;
     font-size: 24px;
     text-transform: uppercase;
+    font-weight: bold;
 }
 /* Navbar Future End */
 
@@ -215,10 +216,23 @@ body {
 .info-future {
     width: 50%;
     background-color: #DBE2EF;
-    text-indent: 50px;
     padding: 30px;
     border-radius:10px ;
     box-shadow: 0px 10px 13px -7px #000000;
+}
+
+.futurepic {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
+.info-future p {
+    text-indent: 50px;
+    padding-top: 20px;
+    color: #112D4E;
 }
 /* Content Future Section End */
 
