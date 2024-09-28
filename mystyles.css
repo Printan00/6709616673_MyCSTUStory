@@ -228,6 +228,25 @@ body {
     width: 100%;
     height: 100%h;
     margin-top: 20px; 
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-bottom: 40px;
+}
+
+.container-journey1 {
+    padding: 20px 0px 20px 150px;
+}
+
+.container-journey2 {
+    padding: 20px 150px 20px 0px;
+}
+
+.container-journey3 {
+    padding: 20px 0px 20px 150px;
+}
+
+.container-journey4 {
+    padding: 20px 150px 20px 0px;
 }
 
 .aboutjourney .topicjourney {
@@ -248,13 +267,13 @@ body {
 }
 
 .box-journey {  
-    height: 60vh;
+    height: 30vh;
     display: flex;
     justify-content: center;
 }
 
 .info-journey {
-    width: 50%;
+    width: 70%;
     background-color: #DBE2EF;
     text-indent: 50px;
     padding: 30px;
@@ -267,8 +286,6 @@ body {
     font-size: 16px;
 }
 
-.container-journey {
-    padding: 20px;
-}
+
 
 /******************************* myjourney.html*******************************/
